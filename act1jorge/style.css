@@ -1,0 +1,83 @@
+body{
+    background-color: #f0f2f5; /* gris muy claro para que contraste */
+    font-family:'Segoe UI', Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin:0;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius:16px;
+    border-top: 6px solid #00205B; /* Azul EBC oficial */
+    box-shadow: 0 8px 20px rgba(0, 32, 91, 0.15);
+    padding:30px;
+    max-width:400px;
+    width:90%;
+    text-align:center;
+}
+
+.card img {
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    margin-bottom:20px;
+    border: 4px solid #00205B; /* Borde azul EBC */
+}
+
+.card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #00205B; /* Azul EBC */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card h2 {
+  font-size: 16px;
+  color: #6c6c6c; /* Gris EBC */
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding:0;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  background-color: #00205B; /* Azul EBC */
+  color: white;
+  margin: 8px 0;
+  padding:10px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card ul li:hover {
+  background-color: #003d9e;
+  transform: scale(1.03);
+}
+
+.card a {
+ text-decoration: none;
+ color: #00205B;
+ font-weight: bold;
+}
+
+.card a i {
+  font-size: 28px;
+  margin-top: 10px;
+  color: #00205B;
+}
